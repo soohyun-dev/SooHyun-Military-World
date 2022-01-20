@@ -1,0 +1,237 @@
+
+
+
+
+
+/* main-title 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+/* font-family: 'Playfair Display', serif; */
+
+
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------
+  Header
+-----------------------------------------------*/
+
+
+.main-title {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+#header {
+  padding: 15px 20px;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border-bottom: solid 2px rgb(60, 59, 59);
+  position: fixed;
+  width: 100%;
+}
+
+#header li {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 5px;
+
+}
+
+.jet-icon {
+  width: 90px;
+  height: 40px;
+  background-color: #fff;
+  float: left;
+  margin: 0 10px 5px 0;
+  text-align: center;
+}
+
+/*----------------------------------------------
+  Main
+-----------------------------------------------*/
+
+#main-video{
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin: 0px auto;
+  
+}
+
+#main .hello {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#main .hello p {
+  text-align: center;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+
+
+/*----------------------------------------------
+  News & Ranking
+-----------------------------------------------*/
+
+
+/* News */
+
+#newsRanking {
+  padding-top: 100px;
+}
+
+#newsRanking .news {
+  width: 69%;
+  height: 100vh;
+  float: left;
+  border: solid 2px black;
+}
+
+#newsRanking .news h1 {
+  text-align : center;
+  font-size: 60px;
+}
+
+
+/* Ranking */
+
+#newsRanking .ranking {
+  width: 30%;
+  height: 100vh;
+  float: left;
+  border: solid 2px black;
+}
+
+#newsRanking .ranking h1 {
+  padding-top: 20px;
+  text-align : center;
+  font-size: 40px;
+}
+
+#newsRanking .ranking p {
+  text-align : center;
+  font-size: 40px;
+}
+
+
+/*----------------------------------------------
+  Military
+-----------------------------------------------*/
+
+/* Army */
+
+
+#military .military-title h1{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 80px;
+  font-weight:100;
+  width:100%;
+  background-color: rgb(161, 112, 112);
+  display: inline-block;
+  
+}
+
+#military h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+#military .army {
+  width: 24%;
+  height: 90vh;
+  border: solid 1px red;
+  float: left;
+}
+
+/* Navy */
+
+#military .navy {
+  width: 24%;
+  height: 90vh;
+  border: solid 1px red;
+  float: left;
+}
+
+/* AirForce */
+#military .airforce {
+  width: 24%;
+  height: 90vh;
+  border: solid 1px red;
+  float: left;
+
+}
+
+/* Marine */
+#military .marine {
+  width: 24%;
+  height: 90vh;
+  border: solid 1px red;
+  float: left;
+
+}
+
+
+/*----------------------------------------------
+  Military
+-----------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------
+  Footer
+-----------------------------------------------*/
+
+#footer {
+  margin-top:100px;
+  width: 100%;
+  display: inline-block;
+}
+
+#footer .f1 {
+  width: 100%;
+  height:50vh; 
+  background-color: rgb(58, 58, 58);
+  display: inline-block;
+}
+
+#footer .f2 {
+  width: 100%;
+  height: 10vh;
+  background-color: brown;
+  display: inline-block;
+}
