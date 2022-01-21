@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>    <!-- 2022.01.21~ -->
 <html>
 <head>
     <meta charset="UTF-8">
@@ -19,8 +19,8 @@
 
      <!-- Main -->
      <section id="main">
-         <video id="main-video" autoplay="" muted="" loop="">
-             <source src="image/main_video.mp4" type="video/mp4">
+         <video id="main-video" autoplay muted="" loop="">
+             <source src="image/main_video.mp4" type="video/mp4" onended="nextPlay()"/>
          </video>
          <div class="hello">
              <p>Welcome to the SooHyun's Military World.</p>
@@ -31,39 +31,103 @@
      <section id="newsRanking">
          <div class="news">
              <h1>News</h1>
+             <div class="news-up">
+                <div class="newsBox">
+                     <img src="image/new-01.jpg" class="newsImg">
+                     <div>
+                       <p>러시아의 우크라이나 점령 가능성은 현실적인가?</p>
+                       <button id="news-button">기사 원문</button>
+                    </div>
+                </div>
+                <div class="newsBox">
+                    <img src="image/new-02.jpg" class="newsImg">
+                    <div>
+                      <p>美 GE, KAI에 한국형 전투기 'KF-X' 엔진 인도</p>
+                      <button id="news-button">기사 원문</button>
+                   </div>
+                </div>
+                <div class="newsBox">
+                    <img src="image/news-03.jpg" class="newsImg">
+                    <div>
+                      <p>‘아덴만 여명작전’ 성공 주역들에게 듣는 11년 전 그날</p>
+                      <button id="news-button">기사 원문</button>
+                   </div>
+                </div>
+                
+            
+             </div>
+             <div class="news-down">
+
+             </div>
          </div>
          <div class="ranking">
              <h1>2022</h1>
              <p>World's MilitaryPower Ranking<p>
+             <div class="chart">
+                 <ol>
+                     <li><img src="image/country/usa.png" class="country"> United State</li>
+                     <li><img src="image/country/Russia.png" class="country"> Russia</li>
+                     <li><img src="image/country/China.png" class="country"> China</li>
+                     <li><img src="image/country/India.png" class="country"> India</li>
+                     <li><img src="image/country/Japan.png" class="country"> Japan</li>
+                     <li><img src="image/country/south korea.png" class="country"> South Korea</li>
+                     <li><img src="image/country/France.png" class="country"> France</li>
+                     <li><img src="image/country/United Kindom.jpg" class="country"> United Kingdom</li>
+                     <li><img src="image/country/Pakistan.png" class="country"> Pakistan</li>
+                     <li><img src="image/country/Brazil.png" class="country"> Brazil</li>
+                 </ol>
+             </div>
          </div>
      </section>
 
      <!-- military -->
      <section id="military">
-         <div class="military-title">
+         <div class="recruit">
             <h1>모병 공고</h1>
          </div>
          <!-- army -->
          <div class="army">
              <h2>army</h2>
+             <img src="image/military/army.jpg" class="recruit-photo">
+             <div>
+                 <p>육군 모집</p>
+             </div>
          </div>
 
          <!-- navy -->
          <div class="navy">
             <h2>navy</h2>
+            <img src="image/military/navy.jpg" class="recruit-photo">
+             <div>
+                 <p>해군 모집</p>
+             </div>
          </div>
 
          <!-- airforce -->
          <div class="airforce">
             <h2>airforce</h2>
+            <img src="image/military/airforce.jpg" class="recruit-photo">
+             <div>
+                 <p>공군 모집</p>
+             </div>
 
         </div>
 
         <!-- marine -->
         <div class="marine">
             <h2>marine</h2>
+            <img src="image/military/marine.jpg" class="recruit-photo">
+             <div>
+                 <p>해병대 모집</p>
+             </div>
 
         </div>
+     </section>
+
+     <section id="gallery">
+         <div>
+             <p>갤러리입니다.</p>
+         </div>
      </section>
 
      <!-- Footer -->
@@ -75,5 +139,16 @@
              <p>footer</p>
          </div>
      </section>
+
+
+
+     
+     <script>
+         /*
+        $("#main-video").on("ended", function() {
+            $("#main-video").attr("src","image/main_video2.mp4");
+        });
+        */
+     </script>
 </body>
 </html>
