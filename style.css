@@ -65,7 +65,19 @@ body {
   font-size: 20px;
   text-decoration: none;
   padding-top: 6px;
+  display: inline-block;
+}
 
+#header .catagory {
+  list-style: none;
+  position: relative;
+  margin: 0 50px 0 50px;
+  float: right;
+  font-size: 20px;
+}
+
+#header .catagory:nth-child(3) {
+  margin-right: 750px;
 }
 
 .jet-icon {
@@ -197,6 +209,7 @@ body {
   height: 30px;
   margin-left: 20px;
   padding-top: 30px;
+  opacity: 0.9;
 }
 
 #newsRanking a {
@@ -248,12 +261,14 @@ body {
 .ranking li {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 10;;
   color: #fff;
   padding-top: 15px;
   opacity: 0.9;
+}
 
-  
+.ranking li:hover {
+  color: #424242;
 }
 
 .country {
@@ -304,9 +319,7 @@ body {
   width:100%;
   color: #fff;
   display: inline-block;
-
   background-size: 100%;
-  
 }
 
 .recruit span {
@@ -321,7 +334,7 @@ body {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 50px;
-  color: #fff;
+  color: #8e8e8e;
   text-decoration: underline;
 }
 
@@ -334,6 +347,10 @@ body {
   background-color: black;
   color:#fff;
   opacity: 0.5;
+}
+
+#military h2:hover {
+  opacity: 1;
 }
 
 
@@ -455,6 +472,10 @@ body {
   transform: translateY(-380%);
   padding: 50px;
   cursor: pointer;
+}
+
+.section label:hover {
+  opacity: 0.5;
 }
 
 .section .slide-control .left {
