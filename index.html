@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <title>Military Power</title>
 </head>
 <body>
     <!-- Header -->
     <section id="header">
-        <div>
+        <div class="scroll-moveBox flex flex-br-c">
             <ul id="navbar">
                 <img src="image/jet-icon.png" class="jet-icon">
                 <li class="main-title">SooHyun's Military World</li>
-                <li class="catagory">Gallery</li>
-                <li class="catagory">Recruit</li>
-                <li class="catagory">News</li>
             </ul>
         </div>
 
@@ -40,7 +38,7 @@
                      <img src="image/new-01.jpg" class="newsImg">
                      <div>
                        <p>러시아의 우크라이나 점령 가능성은 현실적인가?</p>
-                       <button id="news-button">기사 원문 ➤</button>
+                       <button id="news-button" onclick="location.href='https://blog.daum.net/ckjnavy917/6997'">기사 원문 ➤</button>
                        <div>
                             <img src="image/NewsLogo.jpg" class="news-logo">
                             <a>2022-01-25</a>
@@ -51,7 +49,7 @@
                     <img src="image/new-02.jpg" class="newsImg">
                     <div>
                       <p>美 GE, KAI에 한국형 전투기 'KF-X' 엔진 인도</p>
-                      <button id="news-button">기사 원문 ➤</button>
+                      <button id="news-button" onclick="location.href='https://www.theguru.co.kr/news/article.html?no=11443'">기사 원문 ➤</button>
                       <div>
                         <img src="image/NewsLogo.jpg" class="news-logo">
                         <a>2022-01-25</a>
@@ -62,7 +60,7 @@
                     <img src="image/news-03.jpg" class="newsImg">
                     <div>
                       <p>‘아덴만 여명작전’ 성공 주역들에게 듣는 11년 전 그날</p>
-                      <button id="news-button">기사 원문 ➤</button>
+                      <button id="news-button" onclick="location.href='https://m.segye.com/view/20220122505124'">기사 원문 ➤</button>
                       <div>
                         <img src="image/NewsLogo.jpg" class="news-logo">
                         <a>2022-01-24</a>
@@ -110,13 +108,13 @@
              <div>
                  <p>육 군</p>
                  <div>
-                    <button class="btn01">병 모집</button>
+                    <button class="btn01" onclick="window.open('https://www.goarmy.mil.kr:447/goarmy/2700/subview.do')">병 모집</button>
                  </div>
                  <div>
-                    <button class="btn02">부사관 모집</button>
+                    <button class="btn02" onclick="window.open('https://www.goarmy.mil.kr:447/goarmy/2717/subview.do')">부사관 모집</button>
                  </div>
                  <div>
-                    <button class="btn03">장교 모집</button>
+                    <button class="btn03" onclick="window.open('https://www.goarmy.mil.kr:447/goarmy/2712/subview.do')">장교 모집</button>
                  </div>
              </div>
          </div>
@@ -131,13 +129,13 @@
              <div>
                  <p>해 군</p>
                  <div>
-                    <button class="btn01">병 모집</button>
+                    <button class="btn01" onclick="window.open('https://www.navy.mil.kr/mbshome/mbs/navy/subview.do?id=navy_050103000000')">병 모집</button>
                  </div>
                  <div>
-                    <button class="btn02">부사관 모집</button>
+                    <button class="btn02" onclick="window.open('https://www.navy.mil.kr/mbshome/mbs/navy/subview.do?id=navy_050102010000')">부사관 모집</button>
                  </div>
                  <div>
-                    <button class="btn03">장교 모집</button>
+                    <button class="btn03" onclick="window.open('https://www.navy.mil.kr/mbshome/mbs/navy/subview.do?id=navy_050101010000')">장교 모집</button>
                  </div>
              </div>
          </div>
@@ -152,13 +150,13 @@
              <div>
                  <p>공 군</p>
                  <div>
-                    <button class="btn01">병 모집</button>
+                    <button class="btn01" onclick="window.open('https://go.airforce.mil.kr:448/mbshome/mbs/irms/subview.do?id=irms_040300000000')">병 모집</button>
                  </div>
                  <div>
-                    <button class="btn02">부사관 모집</button>
+                    <button class="btn02" onclick="window.open('https://go.airforce.mil.kr:448/mbshome/mbs/irms/subview.do?id=irms_020100000000')">부사관 모집</button>
                  </div>
                  <div>
-                    <button class="btn03">장교 모집</button>
+                    <button class="btn03" onclick="window.open('https://go.airforce.mil.kr:448/mbshome/mbs/irms/subview.do?id=irms_010100000000')">장교 모집</button>
                  </div>
              </div>
 
@@ -174,13 +172,13 @@
              <div>
                  <p>해 병 대</p>
                  <div>
-                    <button class="btn01">병 모집</button>
+                    <button class="btn01" onclick="window.open('https://www.rokmc.mil.kr:10005/recruit/contents/view.do?sMenuKey=40&contentKey=58')">병 모집</button>
                  </div>
                  <div>
-                    <button class="btn02">부사관 모집</button>
+                    <button class="btn02" onclick="window.open('https://www.rokmc.mil.kr:10005/recruit/contents/view.do?sMenuKey=32&contentKey=64')">부사관 모집</button>
                  </div>
                  <div>
-                    <button class="btn03">장교 모집</button>
+                    <button class="btn03" onclick="window.open('https://www.rokmc.mil.kr:10005/recruit/contents/view.do?sMenuKey=26&contentKey=50')">장교 모집</button>
                  </div>
              </div>
 
@@ -279,12 +277,6 @@
 
 
      
-     <script>
-         /*
-        $("#main-video").on("ended", function() {
-            $("#main-video").attr("src","image/main_video2.mp4");
-        });
-        */
-     </script>
+     <script src="script.js"></script>
 </body>
 </html>
