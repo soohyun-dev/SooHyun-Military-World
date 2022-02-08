@@ -189,14 +189,13 @@ body {
   margin-left: 140px;
   margin-top: 40px;
   padding: 10px 25px;
-  background-color: black;
+  background-color: #fff;
   border-radius: 0 20px 0 20px;
   font-size: 15px;
   position: relative;
   font-weight: 600;
   cursor: pointer;
-  color:#fff;
-  opacity: 0.5;
+  color:black;
 }
 
 #news-button:hover {
@@ -332,13 +331,16 @@ body {
 
 #military p {
   text-align: center;
+  padding:10px 20px;
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 50px;
-  color: #8e8e8e;
-  text-decoration: underline;
+  color: #fff;
 }
 
+#military span{
+    color: #9ea7aa;
+}
 
 
 #military h2 {
@@ -362,11 +364,8 @@ body {
   border-radius: 15px;
   float: left;
   background-image: url(./image/banner06.jpg);
-  margin: 0 0 60px 10px;
+  margin: 0 0 60px 15px;
 }
-
-
-
 
 #military button {
   font-family: 'Nanum Gothic', sans-serif;
@@ -563,15 +562,16 @@ body {
 #footer-logo {
   font-family: 'Playfair Display', serif;
   color: #fff;
-  text-align: left;
   text-decoration: none;
   list-style: none;
   font-size: 20px;
   font-weight: 700;
+  text-align: right;
 }
 
-
-
+#footer li{
+    padding-right: 10px;
+}
 
 /* 반응형 웹 디자인 */
 
